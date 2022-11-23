@@ -1,0 +1,18 @@
+Langkah-Langkah:
+1.Extract logo.Rar
+1.Nyalakan Server ( Disini saya menggunakan XAMPP) lalu aktifkan Apache dan MYSQL
+2.Import table user.sql kedalam server dengan nama database logo
+3.Buka link tersebut http://localhost/logo/ (Jika belum punya akun maka registrasi terlebih dahulu )
+4.didalam database user sudah tersedia untuk bahan login jadi tidak perlu lagi registrasi
+5. Silahkan login
+	Email : syahrulfirdaus781@gmail.com
+	Password : 1234
+6. Setelah berhasil login, maka sistem akan menampilkan halaman utama
+7.jika ingin logount maka klik logout pada menu profile
+
+NOTED : JIKA INGIN MASUK KE HALAMAN UTAMA MAKA HARUS MELALUI PROSES AUTHENTIKASI (LOGIN)
+
+Jika ada error
+
+ganti setelan config base_url menjadi manual seperti ini
+$config['base_url'] = 'http://localhost/logo/';
